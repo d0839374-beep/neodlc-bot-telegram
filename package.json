@@ -1,0 +1,16 @@
+{
+  "name": "neodlc-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for Neo DLC 1.21.4 Free",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-telegram-bot-api": "^0.64.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -6,7 +6,7 @@ const BOT_TOKEN = process.env.BOT_TOKEN;
 const DISCORD_URL = process.env.DISCORD_URL;
 const DOWNLOAD_URL = process.env.DOWNLOAD_URL;
 const STATUS_TEXT = process.env.STATUS_TEXT;
-const STATUS_TEXT = process.env.INFO_TEXT;
+const INFO_TEXT = process.env.INFO_TEXT;
 
 if (!BOT_TOKEN || !DISCORD_URL || !DOWNLOAD_URL || !STATUS_TEXT  || !INFO_TEXT) {
     console.error('Ошибка: BOT_TOKEN, DISCORD_URL, DOWNLOAD_URL, STATUS_TEXT,INFO_TEXT не обнаружено');

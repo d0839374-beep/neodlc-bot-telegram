@@ -15,8 +15,6 @@ const bot = new TelegramBot(BOT_TOKEN, { polling: true });
 
 const WELCOME_TEXT = `
 ✨ Добро пожаловать в **Neo DLC | 1.21.4** ✨
-
-Выберите действие с помощью кнопок ниже:
 `;
 
 bot.onText(/\/start/, (msg) => {
